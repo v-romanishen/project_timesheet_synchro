@@ -15,5 +15,8 @@
     'depends': [],
     'data': [],
     'demo': [],
+
+	'application': True,
+	'installable': True,
 }
 
