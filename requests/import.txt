@@ -1,0 +1,566 @@
+//=====================================
+//  Запрос в odoo для импорта данны
+//=====================================
+
+
+//  Request URL: /web/dataset/call_kw/account.analytic.line/import_ui_data
+
+
+//  Тело запроса: 
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "args": [
+      [
+        {
+          "id": "__export__.admin1523886693911_aal_7",
+          "project_id": "project.project_project_5",
+          "task_id": "project.project_task_23",
+          "date": "2018-04-17",
+          "unit_amount": "0.0",
+          "desc": " ",
+          "to_sync": false,
+          "write_date": "2018-04-17 10:31:27",
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_6",
+          "date": "2018-04-17",
+          "project_id": "sale_service.project_GAP",
+          "task_id": "__export__.admin1523877766840_task_1",
+          "desc": " some summary",
+          "unit_amount": "0.00",
+          "write_date": "2018-04-17 10:11:46",
+          "to_sync": false,
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_5",
+          "project_id": "project.project_project_4",
+          "task_id": false,
+          "date": "2018-04-17",
+          "unit_amount": "2.50",
+          "desc": " ",
+          "to_sync": false,
+          "write_date": "2018-04-17 10:11:19",
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_3",
+          "project_id": "project.project_project_3",
+          "task_id": "project.project_task_14",
+          "date": "2018-04-17",
+          "unit_amount": "0.0",
+          "desc": " ",
+          "to_sync": false,
+          "write_date": "2018-04-17 09:46:25",
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_2",
+          "project_id": "project.project_project_4",
+          "task_id": "project.project_task_20",
+          "date": "2018-04-17",
+          "unit_amount": "0.0",
+          "desc": " ",
+          "to_sync": false,
+          "write_date": "2018-04-17 09:46:25",
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_4",
+          "project_id": "project.project_project_3",
+          "task_id": "project.project_task_18",
+          "date": "2018-04-17",
+          "unit_amount": "0.0",
+          "desc": " ",
+          "to_sync": false,
+          "write_date": "2018-04-17 09:46:25",
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.admin1523886693911_aal_1",
+          "date": "2018-04-16",
+          "project_id": "project.project_project_4",
+          "task_id": "project.project_task_20",
+          "desc": " ",
+          "unit_amount": "0.25",
+          "write_date": "2018-04-16 13:55:52",
+          "to_sync": false,
+          "sync_problem": false,
+          "sheet_state": "open"
+        },
+        {
+          "id": "__export__.$no_user$1523886121974_aal_1",
+          "task_id": "project.project_task_14",
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "1.0",
+          "write_date": "2018-04-16 13:44:46",
+          "sheet_state": "open",
+          "project_id": "project.project_project_3",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.$no_user$1523886121974_aal_2",
+          "task_id": "project.project_task_18",
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.25",
+          "write_date": "2018-04-16 13:44:46",
+          "sheet_state": "open",
+          "project_id": "project.project_project_3",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_10",
+          "task_id": "project.project_task_14",
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.0",
+          "write_date": "2018-04-16 13:39:41",
+          "sheet_state": "open",
+          "project_id": "project.project_project_3",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_9",
+          "task_id": false,
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.2",
+          "write_date": "2018-04-16 13:38:34",
+          "sheet_state": "open",
+          "project_id": "project.project_project_4",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_8",
+          "task_id": false,
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.2",
+          "write_date": "2018-04-16 13:38:13",
+          "sheet_state": "open",
+          "project_id": "project.project_project_4",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_7",
+          "task_id": false,
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.2",
+          "write_date": "2018-04-16 13:37:58",
+          "sheet_state": "open",
+          "project_id": "project.project_project_4",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_6",
+          "task_id": "project.project_task_23",
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.2",
+          "write_date": "2018-04-16 11:54:29",
+          "sheet_state": "open",
+          "project_id": "project.project_project_5",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_aal_5",
+          "task_id": false,
+          "desc": " ",
+          "date": "2018-04-16",
+          "unit_amount": "0.2",
+          "write_date": "2018-04-16 11:51:04",
+          "sheet_state": "open",
+          "project_id": "project.project_project_4",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.$no_user$1523615851127_aal_1",
+          "task_id": "project.project_task_23",
+          "desc": "super test test ",
+          "date": "2018-04-13",
+          "unit_amount": "42.75",
+          "write_date": "2018-04-13 13:10:42",
+          "sheet_state": "open",
+          "project_id": "project.project_project_5",
+          "to_sync": false,
+          "sync_problem": false
+        }
+      ],
+      [
+        {
+          "id": "project.project_task_15",
+          "project_id": "project.project_project_3",
+          "name": "User Interface design",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_6",
+          "project_id": "project.project_project_1",
+          "name": "Integrate Modules",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_14",
+          "project_id": "project.project_project_3",
+          "name": "Dataflow Design",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_18",
+          "project_id": "project.project_project_3",
+          "name": "Deploy and review on live system",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_13",
+          "project_id": "project.project_project_3",
+          "name": "Design Use Cases",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_9",
+          "project_id": "project.project_project_2",
+          "name": "Document history management",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_12",
+          "project_id": "project.project_project_2",
+          "name": "Improve+clean code and functionality",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_17",
+          "project_id": "project.project_project_3",
+          "name": "Integration of core components",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_7",
+          "project_id": "project.project_project_1",
+          "name": "Internal testing + Software Install",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_16",
+          "project_id": "project.project_project_3",
+          "name": "Set target for all deparments",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_10",
+          "project_id": "project.project_project_2",
+          "name": "Social network integration",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_11",
+          "project_id": "project.project_project_2",
+          "name": "User interface improvements",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_24",
+          "project_id": "project.project_project_5",
+          "name": "Modifications asked by the customer",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_0",
+          "project_id": "project.project_project_data",
+          "name": "Welcome to Odoo",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_1",
+          "project_id": "project.project_project_data",
+          "name": "Try to play with the search bar. Use the filters",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_5",
+          "project_id": "project.project_project_data",
+          "name": "Try to drag a task wherever your want",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_6",
+          "project_id": "project.project_project_data",
+          "name": "Use tags to organize your tasks",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_2",
+          "project_id": "project.project_project_data",
+          "name": "Guess what happens if you set this task as favorite?",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_12",
+          "project_id": "project.project_project_data",
+          "name": "Try to customize this card. Change its background.",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_13",
+          "project_id": "project.project_project_data",
+          "name":
+            "Set this task as 'Ready for next stage' to proceed further in the process",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_4",
+          "project_id": "project.project_project_data",
+          "name": "Use the chatter to collaborate with your members",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_8",
+          "project_id": "project.project_project_data",
+          "name": "Do you want to learn more? Try our implementation guide!",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_7",
+          "project_id": "project.project_project_data",
+          "name": "Finished with this stage? Archive it !",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_14",
+          "project_id": "project.project_project_data",
+          "name":
+            "Send an message with a picture in attachment, and see what happen!",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_11",
+          "project_id": "project.project_project_data",
+          "name": "You can set a deadline on a task",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_data_9",
+          "project_id": "project.project_project_data",
+          "name": "You want to add a stage? Add a new column !",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_3",
+          "project_id": "project.project_project_1",
+          "name": "Budget Planning",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_4",
+          "project_id": "project.project_project_1",
+          "name": "Develop module for Sale Management",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_5",
+          "project_id": "project.project_project_1",
+          "name": "Develop module for Warehouse",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_2",
+          "project_id": "project.project_project_1",
+          "name": "Make SRS",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_1",
+          "project_id": "project.project_project_1",
+          "name": "Prepare Requirements Document",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_8",
+          "project_id": "project.project_project_2",
+          "name": "New portal system",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_19",
+          "project_id": "project.project_project_4",
+          "name": "Basic outline",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_20",
+          "project_id": "project.project_project_4",
+          "name": "Create new components",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_22",
+          "project_id": "project.project_project_5",
+          "name": "Customer analysis + Architecture",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_21",
+          "project_id": "project.project_project_4",
+          "name": "Useablity review",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "__export__.admin1523877766840_task_1",
+          "project_id": "sale_service.project_GAP",
+          "name": "new task",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_23",
+          "project_id": "project.project_project_5",
+          "name": "Data Export flow",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_25",
+          "project_id": "project.project_project_5",
+          "name": "Data importation + Doc",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_task_26",
+          "project_id": "project.project_project_5",
+          "name": "Unit Testing",
+          "to_sync": false,
+          "sync_problem": false
+        }
+      ],
+      [
+        {
+          "id": "project.project_project_5",
+          "name": "Data Import/Export Plugin",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_project_3",
+          "name": "E-Learning Integration",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "sale_service.project_GAP",
+          "name": "Internal - GAP Analysis",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_project_2",
+          "name": "Research & Development",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_project_data",
+          "name": "Start here to discover Odoo",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_project_1",
+          "name": "Website for Sales & WMS",
+          "to_sync": false,
+          "sync_problem": false
+        },
+        {
+          "id": "project.project_project_4",
+          "name": "Website Design Templates",
+          "to_sync": false,
+          "sync_problem": false
+        }
+      ]
+    ],
+    "model": "account.analytic.line",
+    "method": "import_ui_data",
+    "kwargs": {
+      "context": {
+        "_super": null,
+        "__ref": "compound_context",
+        "__contexts": [{ "default_is_timesheet": true }],
+        "__eval_context": null
+      }
+    }
+  },
+  "id": 632835684
+}
+
+
+
+//  Тело ответа:
+{
+  "jsonrpc": "2.0",
+  "id": 632835684,
+  "result": {
+    "task_errors": { "failed_records_messages": [], "failed_records": [] },
+    "aals_to_remove": [],
+    "aals_errors": { "failed_records_messages": [], "failed_records": [] },
+    "project_errors": { "failed_records_messages": [], "failed_records": [] },
+    "tasks_to_remove": [],
+    "projects_to_remove": []
+  }
+} 

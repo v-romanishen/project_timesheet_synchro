@@ -1,0 +1,520 @@
+//=====================================
+//  Запрос в odoo для экспорта данны
+//=====================================
+
+
+//  Request URL: /web/dataset/call_kw/account.analytic.line/export_data_for_ui
+
+
+//  Тело запроса: 
+{
+  "jsonrpc": "2.0",
+  "method": "call",
+  "params": {
+    "args": [],
+    "model": "account.analytic.line",
+    "method": "export_data_for_ui",
+    "kwargs": {}
+  },
+  "id": 568410644
+}
+
+
+// Тело ответа:
+{
+  "jsonrpc": "2.0",
+  "id": 568410644,
+  "result": {
+    "aals": {
+      "datas": [
+        [
+          "__export__.admin1523886693911_aal_7",
+          "project.project_task_23",
+          "36",
+          " ",
+          "23",
+          "2018-04-17",
+          "0.0",
+          "2018-04-17 10:31:27",
+          "open",
+          "project.project_project_5"
+        ],
+        [
+          "__export__.admin1523886693911_aal_2",
+          "project.project_task_20",
+          "33",
+          " ",
+          "22",
+          "2018-04-17",
+          "0.0",
+          "2018-04-17 09:46:25",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523886693911_aal_5",
+          false,
+          "",
+          " ",
+          "22",
+          "2018-04-17",
+          "2.5",
+          "2018-04-17 10:11:19",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523886693911_aal_4",
+          "project.project_task_18",
+          "31",
+          " ",
+          "21",
+          "2018-04-17",
+          "0.0",
+          "2018-04-17 09:46:25",
+          "open",
+          "project.project_project_3"
+        ],
+        [
+          "__export__.admin1523886693911_aal_3",
+          "project.project_task_14",
+          "27",
+          " ",
+          "21",
+          "2018-04-17",
+          "0.0",
+          "2018-04-17 09:46:25",
+          "open",
+          "project.project_project_3"
+        ],
+        [
+          "__export__.admin1523886693911_aal_6",
+          "__export__.admin1523877766840_task_1",
+          "75",
+          " some summary",
+          "39",
+          "2018-04-17",
+          "0.0",
+          "2018-04-17 10:11:46",
+          "open",
+          "sale_service.project_GAP"
+        ],
+        [
+          "__export__.$no_user$1523886121974_aal_2",
+          "project.project_task_18",
+          "31",
+          " ",
+          "21",
+          "2018-04-16",
+          "0.25",
+          "2018-04-16 13:44:46",
+          "open",
+          "project.project_project_3"
+        ],
+        [
+          "__export__.admin1523877766840_aal_7",
+          false,
+          "",
+          " ",
+          "22",
+          "2018-04-16",
+          "0.2",
+          "2018-04-16 13:37:58",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523886693911_aal_1",
+          "project.project_task_20",
+          "33",
+          " ",
+          "22",
+          "2018-04-16",
+          "0.25",
+          "2018-04-16 13:55:52",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523877766840_aal_5",
+          false,
+          "",
+          " ",
+          "22",
+          "2018-04-16",
+          "0.2",
+          "2018-04-16 11:51:04",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523877766840_aal_10",
+          "project.project_task_14",
+          "27",
+          " ",
+          "21",
+          "2018-04-16",
+          "0.0",
+          "2018-04-16 13:39:41",
+          "open",
+          "project.project_project_3"
+        ],
+        [
+          "__export__.admin1523877766840_aal_8",
+          false,
+          "",
+          " ",
+          "22",
+          "2018-04-16",
+          "0.2",
+          "2018-04-16 13:38:13",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.$no_user$1523886121974_aal_1",
+          "project.project_task_14",
+          "27",
+          " ",
+          "21",
+          "2018-04-16",
+          "1.0",
+          "2018-04-16 13:44:46",
+          "open",
+          "project.project_project_3"
+        ],
+        [
+          "__export__.admin1523877766840_aal_9",
+          false,
+          "",
+          " ",
+          "22",
+          "2018-04-16",
+          "0.2",
+          "2018-04-16 13:38:34",
+          "open",
+          "project.project_project_4"
+        ],
+        [
+          "__export__.admin1523877766840_aal_6",
+          "project.project_task_23",
+          "36",
+          " ",
+          "23",
+          "2018-04-16",
+          "0.2",
+          "2018-04-16 11:54:29",
+          "open",
+          "project.project_project_5"
+        ],
+        [
+          "__export__.$no_user$1523615851127_aal_1",
+          "project.project_task_23",
+          "36",
+          "super test test ",
+          "23",
+          "2018-04-13",
+          "42.75",
+          "2018-04-13 13:10:42",
+          "open",
+          "project.project_project_5"
+        ]
+      ]
+    },
+    "tasks": {
+      "datas": [
+        [
+          "project.project_task_15",
+          "project.project_project_3",
+          "4",
+          "User Interface design",
+          "Administrator"
+        ],
+        [
+          "project.project_task_6",
+          "project.project_project_1",
+          "2",
+          "Integrate Modules",
+          "Administrator"
+        ],
+        [
+          "project.project_task_14",
+          "project.project_project_3",
+          "4",
+          "Dataflow Design",
+          "Administrator"
+        ],
+        [
+          "project.project_task_18",
+          "project.project_project_3",
+          "4",
+          "Deploy and review on live system",
+          "Administrator"
+        ],
+        [
+          "project.project_task_13",
+          "project.project_project_3",
+          "4",
+          "Design Use Cases",
+          "Demo User"
+        ],
+        [
+          "project.project_task_9",
+          "project.project_project_2",
+          "3",
+          "Document history management",
+          "Demo User"
+        ],
+        [
+          "project.project_task_12",
+          "project.project_project_2",
+          "3",
+          "Improve+clean code and functionality",
+          "Administrator"
+        ],
+        [
+          "project.project_task_17",
+          "project.project_project_3",
+          "4",
+          "Integration of core components",
+          "Demo User"
+        ],
+        [
+          "project.project_task_7",
+          "project.project_project_1",
+          "2",
+          "Internal testing + Software Install",
+          "Administrator"
+        ],
+        [
+          "project.project_task_16",
+          "project.project_project_3",
+          "4",
+          "Set target for all deparments",
+          "Demo User"
+        ],
+        [
+          "project.project_task_10",
+          "project.project_project_2",
+          "3",
+          "Social network integration",
+          "Demo User"
+        ],
+        [
+          "project.project_task_11",
+          "project.project_project_2",
+          "3",
+          "User interface improvements",
+          "Administrator"
+        ],
+        [
+          "project.project_task_24",
+          "project.project_project_5",
+          "6",
+          "Modifications asked by the customer",
+          false
+        ],
+        [
+          "project.project_task_data_0",
+          "project.project_project_data",
+          "1",
+          "Welcome to Odoo",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_1",
+          "project.project_project_data",
+          "1",
+          "Try to play with the search bar. Use the filters",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_5",
+          "project.project_project_data",
+          "1",
+          "Try to drag a task wherever your want",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_6",
+          "project.project_project_data",
+          "1",
+          "Use tags to organize your tasks",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_2",
+          "project.project_project_data",
+          "1",
+          "Guess what happens if you set this task as favorite?",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_12",
+          "project.project_project_data",
+          "1",
+          "Try to customize this card. Change its background.",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_13",
+          "project.project_project_data",
+          "1",
+          "Set this task as 'Ready for next stage' to proceed further in the process",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_4",
+          "project.project_project_data",
+          "1",
+          "Use the chatter to collaborate with your members",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_8",
+          "project.project_project_data",
+          "1",
+          "Do you want to learn more? Try our implementation guide!",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_7",
+          "project.project_project_data",
+          "1",
+          "Finished with this stage? Archive it !",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_14",
+          "project.project_project_data",
+          "1",
+          "Send an message with a picture in attachment, and see what happen!",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_11",
+          "project.project_project_data",
+          "1",
+          "You can set a deadline on a task",
+          "Administrator"
+        ],
+        [
+          "project.project_task_data_9",
+          "project.project_project_data",
+          "1",
+          "You want to add a stage? Add a new column !",
+          "Administrator"
+        ],
+        [
+          "project.project_task_3",
+          "project.project_project_1",
+          "2",
+          "Budget Planning",
+          "Administrator"
+        ],
+        [
+          "project.project_task_4",
+          "project.project_project_1",
+          "2",
+          "Develop module for Sale Management",
+          "Demo User"
+        ],
+        [
+          "project.project_task_5",
+          "project.project_project_1",
+          "2",
+          "Develop module for Warehouse",
+          "Administrator"
+        ],
+        [
+          "project.project_task_2",
+          "project.project_project_1",
+          "2",
+          "Make SRS",
+          "Demo User"
+        ],
+        [
+          "project.project_task_1",
+          "project.project_project_1",
+          "2",
+          "Prepare Requirements Document",
+          "Demo User"
+        ],
+        [
+          "project.project_task_8",
+          "project.project_project_2",
+          "3",
+          "New portal system",
+          "Demo User"
+        ],
+        [
+          "project.project_task_19",
+          "project.project_project_4",
+          "5",
+          "Basic outline",
+          false
+        ],
+        [
+          "project.project_task_20",
+          "project.project_project_4",
+          "5",
+          "Create new components",
+          false
+        ],
+        [
+          "project.project_task_22",
+          "project.project_project_5",
+          "6",
+          "Customer analysis + Architecture",
+          false
+        ],
+        [
+          "project.project_task_21",
+          "project.project_project_4",
+          "5",
+          "Useablity review",
+          false
+        ],
+        [
+          "__export__.admin1523877766840_task_1",
+          "sale_service.project_GAP",
+          "20",
+          "new task",
+          "Administrator"
+        ],
+        [
+          "project.project_task_23",
+          "project.project_project_5",
+          "6",
+          "Data Export flow",
+          false
+        ],
+        [
+          "project.project_task_25",
+          "project.project_project_5",
+          "6",
+          "Data importation + Doc",
+          false
+        ],
+        [
+          "project.project_task_26",
+          "project.project_project_5",
+          "6",
+          "Unit Testing",
+          false
+        ]
+      ]
+    },
+    "projects": {
+      "datas": [
+        ["project.project_project_5", "Data Import/Export Plugin", "23"],
+        ["project.project_project_3", "E-Learning Integration", "21"],
+        ["sale_service.project_GAP", "Internal - GAP Analysis", "39"],
+        ["project.project_project_2", "Research & Development", "20"],
+        ["project.project_project_data", "Start here to discover Odoo", "18"],
+        ["project.project_project_1", "Website for Sales & WMS", "19"],
+        ["project.project_project_4", "Website Design Templates", "22"]
+      ]
+    }
+  }
+}
